@@ -40,17 +40,23 @@ API para pagamento, estorno e consulta de transações.
 * Maven - Para fazer gerenciamento de dependencias 
 * JPA - Server Container Tomcat
 * Dependencias Principais:
-
 	- Spring web
 	- Banco de dados em memoria: h2 database
 	- spring Data JPA
 	- DevTools
 
 ## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando na pasta target, para iniciar o projeto:
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 
-java -jar pagamento-api-0.0.1-SNAPSHOT.jar
+git clone https://github.com/weltonoliveiralima/ToolsChallenge
+
+./mvnw spring-boot:run
+
+ou
+
+mvn spring-boot:run
 
 
 ## :handshake: Desenvolvedor
  * Welton Lima
+
